@@ -20,7 +20,7 @@ def print_n(s,n):
 def run():
   n = int(input("Enter an int: "))
   out = sum_n(n)
-  print("sum is: " + str(out)+ ".")
+  print("sum is " + str(out)+ ".")
   s = input("Enter a string: ")
   print_n(s,n)
 
